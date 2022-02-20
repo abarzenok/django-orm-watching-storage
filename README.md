@@ -15,7 +15,7 @@ Specify the database connection properties (for a detailed description of Django
 ```commandline
 DB_ENGINE=<database engine (see documentation)>
 DB_HOST=<database hostname or IP address>
-DB_PORT=<database port. It's 5432 for PostgreSQL, 3306 for MySQL, etc.>
+DB_PORT=<database port. By default, it's 5432 for PostgreSQL, 3306 for MySQL, etc.>
 DB_NAME=<name of the database you want to connect>
 DB_USER=<database user with required rights>
 DB_PASSWORD=<user password>
