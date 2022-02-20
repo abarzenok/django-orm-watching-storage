@@ -21,7 +21,7 @@ DB_USER=<database user with required rights>
 DB_PASSWORD=<user password>
 ```
 
-You can also define the `DEBUG` mode (False by default)::
+You can also define the `DEBUG` mode (`False` by default)::
 ```commandline
 DEBUG=True
 ```
