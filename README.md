@@ -16,7 +16,7 @@ Specify the database connection URL (see [DJ-Database-URL documentation](https:/
 DB_URL=<database URL in specific format>
 ```
 
-You can also define the `DEBUG` mode (False by default)::
+You can also define the `DEBUG` mode (`False` by default)::
 ```commandline
 DEBUG=True
 ```
@@ -36,7 +36,7 @@ Execute the following to run the project:
 python manage.py runserver 0.0.0.0:8000
 ```
 
-You'll need to open [127.0.0.1:8000](http://127.0.0.1:8000) in a browser to see it. Also, see [Django runserver documentation](https://docs.djangoproject.com/en/3.2/ref/django-admin/#runserver)
+You'll need to open [127.0.0.1:8000](http://127.0.0.1:8000) in a browser to see it. Also, see [Django runserver documentation](https://docs.djangoproject.com/en/3.2/ref/django-admin/#runserver).
 
 ### Project Goals
 
