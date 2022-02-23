@@ -16,9 +16,14 @@ Specify the database connection URL (see [DJ-Database-URL documentation](https:/
 DB_URL=<database URL in specific format>
 ```
 
-You can also define the `DEBUG` mode (`False` by default. See [Django documentaion about DEBUG](https://docs.djangoproject.com/en/3.1/ref/settings/#debug))::
+You can also define the `DEBUG` mode (`False` by default. See [Django DEBUG documentation](https://docs.djangoproject.com/en/3.1/ref/settings/#debug))::
 ```commandline
 DEBUG=True
+```
+
+Define an ALLOWED_HOSTS list. The default is empty list `[]`. See example (see also more information on [Django ALLOWED_HOSTS documentation](https://docs.djangoproject.com/en/3.1/ref/settings/#allowed-hosts)):
+```commandline
+ALLOWED_HOSTS=localhost,127.0.0.1,your.domain.here
 ```
 
 #### Installing dependencies
