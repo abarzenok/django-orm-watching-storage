@@ -16,7 +16,7 @@ Specify the database connection URL (see [DJ-Database-URL documentation](https:/
 DB_URL=<database URL in specific format>
 ```
 
-You can also define the `DEBUG` mode (`False` by default)::
+You can also define the `DEBUG` mode (`False` by default. See [Django documentaion about DEBUG](https://docs.djangoproject.com/en/3.1/ref/settings/#debug))::
 ```commandline
 DEBUG=True
 ```
