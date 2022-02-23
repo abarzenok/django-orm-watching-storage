@@ -11,14 +11,9 @@ This [Django 3.2](https://docs.djangoproject.com/en/3.2/) project implements a s
 
 Create a file called `.env` inside the `project` folder.
 
-Specify the database connection properties (for a detailed description of Django database settings, see the official [Django databases documentation](https://docs.djangoproject.com/en/3.2/ref/databases/)):
+Specify the database connection URL (see [DJ-Database-URL documentation](https://github.com/jacobian/dj-database-url#url-schema) for examples of URL formats for various databases):
 ```commandline
-DB_ENGINE=<database engine (see documentation)>
-DB_HOST=<database hostname or IP address>
-DB_PORT=<database port. By default, it's 5432 for PostgreSQL, 3306 for MySQL, etc.>
-DB_NAME=<name of the database you want to connect>
-DB_USER=<database user with required rights>
-DB_PASSWORD=<user password>
+DB_URL=<database URL in specific format>
 ```
 
 You can also define the `DEBUG` mode (False by default)::
